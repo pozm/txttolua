@@ -1,0 +1,1 @@
+File.rename(Dir.pwd + "/" + ARGV[0], ((Dir.pwd + "/" + ARGV[0]).sub! '.txt', '.lua')) # Run: ruby main.rb [filename]
