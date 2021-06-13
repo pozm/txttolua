@@ -1,0 +1,6 @@
+C:\Development\txttolua\cs\bin\Debug\cs.exe
+C:\Development\txttolua\cs\bin\Debug\cs.pdb
+C:\Development\txttolua\cs\obj\Debug\cs.csproj.AssemblyReference.cache
+C:\Development\txttolua\cs\obj\Debug\cs.csproj.CoreCompileInputs.cache
+C:\Development\txttolua\cs\obj\Debug\cs.exe
+C:\Development\txttolua\cs\obj\Debug\cs.pdb
