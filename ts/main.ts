@@ -1,5 +1,5 @@
 import fs from "fs"
-import path from "path;
+import path from "path"
 function main() { // i feel like i now need a main function; it just doesn't feel right without..
 
     const pathTo = process.argv[2]; // argc doesn't exist so it's thrown in here
