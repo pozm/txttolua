@@ -1,0 +1,1 @@
+Rename-Item $args[0] $args[0].Replace(".txt", ".lua")

@@ -1,0 +1,1 @@
+os.rename(arg[1], arg[1]:gsub(".txt", ".lua")) -- Run: lua main.lua [filename]
