@@ -14,18 +14,19 @@ func main() {
 	}
 
 	pathTo := os.Args[1]
-	ext := path.Ext(pathTo)
+
+	abs, err := filepath.Abs(pathTo)
+	ext := path.Ext(abs)
 	if ext != ".txt" {
 		fmt.Println("I can only convert txt files into lua files.")
 		return
 	}
 
-	abs, err := filepath.Abs(pathTo)
 	if err != nil {
 		fmt.Println("Path does not exist")
 		return
 	}
-	err = os.Rename(abs, filepath.Dir(abs)+"\\"+(filepath.Base(abs)[0:len(ext)])+".lua") // this is so scuffed ik, sorry cy if you view this.
+	err = os.Rename(abs, abs[0:len(abs)-len(ext)]+".lua") // this is so scuffed ik, sorry cy if you view this.
 	if err != nil {
 		fmt.Println("unable to change")
 		return
