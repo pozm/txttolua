@@ -1,4 +1,4 @@
-import java.io.File; //1xc
+import java.io.File; // 1xc
 
 public class main 
 {
